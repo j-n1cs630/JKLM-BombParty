@@ -1,5 +1,7 @@
 AVW = lavway - lavways
+BEM = bema - bemad
 ELS = else - counsels - gunsels
+HNO = ethnonyms - technology
 MPH = lymph - oomph
 OFS = poofs - woofs
 TME = anointmemnt - commitment
