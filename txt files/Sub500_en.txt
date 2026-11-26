@@ -1,0 +1,4 @@
+IFA = antifat - antifatigue - liquifaction
+PTN = aptness - corruptness
+XIM = maxim - maximals - oxim
+YRM = syrmaks - wyrms

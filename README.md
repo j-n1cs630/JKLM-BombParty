@@ -1,2 +1,2 @@
 # Prompts-JKLM
-For JKLM Bomb Party users
+For JKLM Bomb Party users. Still ongoing
