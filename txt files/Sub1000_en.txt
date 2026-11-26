@@ -1,9 +1,12 @@
 AVW = lavway - lavways
 BEM = bema - bemad
+BCH = subchief - subchord
 ELS = else - counsels - gunsels
 HNO = ethnonyms - technology
+LLD = bulldogs - bulldozes - helldiver
 MPH = lymph - oomph
-OFS = poofs - woofs
+OFS = poofs - roofs - woofs
 TME = anointmemnt - commitment
+XIC = anorexic - detoxication - toxic
 YEB = eyeballs - eyebrow - yebo
 YNE = aerodyne - syned - wryness
