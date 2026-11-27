@@ -1,2 +1,4 @@
-# Prompts-JKLM
-For JKLM Bomb Party users. Adding when I can based on my play.
+# JKLM-Prompts searcher
+For JKLM Bomb Party players
+
+Check the HTML file with github.io on its URL.
