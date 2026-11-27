@@ -5,7 +5,7 @@
 </head>
 <body>
    <button onclick="alert('N1CS630 on JKLM')">Creator</button>
-   <h1 style="text-align: center;">Sub1000 JKLM Prompts</h1><br>
+   <h1 style="text-align: center;">Sub1000 JKLM Prompts (Inconplete)</h1><br>
    <p style="text-align: center;">Type in the syllables or either capslock or not.<br><b>"__ -s" = short words  "__ -sn" = syllable nique words  "__ -h" = hyphenated words</b></p>
    
    <hr><br>
@@ -15,30 +15,31 @@
    <p id="result"></p>
 
    </div>
-   x
    <script>
    let words = {
-      "ALY": "Found 2 words matching ALY: <b>analysis - halyard</b>",
-      "AVW": "Found 2 words matching AVW: <b>lavway - lavways</b>",
-      "BCH": "Found 2 words matching BCH: <b>subchief - subchord</b>",
-      "DF": "Found 3 words matching DF: <b>headfast - mudfish - mudflap</b>",
-      "DME": "Found 2 words matching DME: <b>amendments - rodmen</b>",
-      "ELS": "Found 4 words matching ELS: <b>else - counsels - gunsels - wheels</b>",
-      "FSK": "Found 6 words matching FSK: <b>calfskin - calfskins - schafskopf - schafskopfen - wolfskin - wolfskins</b>",
-      "ITO": "Found 6 words matching ITO: <b>cohabitors - epitomize - janitors - multitoned - spiritous - traitorism</b>",
-      "ITO -h": "8 Hyphenated words matching ITO: <b>anti-mosquito - bass-baritone - bass-baritones - co-editor - co-editors - orbito-frontal - pellitory-of-the-wall - pellitories-of-the-wall </b>",
-      "ITO -s": "7 Short words matching ITO: <b>niton — cito — bitou — bitos — bito — pitot — piton</b>",
-      "IZO": "Found 4 words matching IZO: <b>horizontal - mestizo - vizors</b>",
-      "IZO -h": "Found 3 hyphenated words matching IZO: <b>anti-schizophrenic — anti-schizophrenia — paranoid-schizoid</b>",
-      "LLD": "Found 3 words matching LLD: <b>bulldogs - bulldozes - helldiver</b>",
-      "LTA": "Found 5 words matching LTA: <b>consultant - consultas - saltationist - simultaneity - voltaism</b>",
-      "LTA -s": "3 Short words matching LTA: <b>altar - delta - pelta - volta</b>",
-      "LTA -sn": "3 Syllable nique words matching LTA: <b>weltanschauungs — weltanschauungen — weltanschauung</b>",
-      "MPH": "Found 2 words matching MPH: <b>lymph - oomph</b>",
-      "MPH -sn": "Syllable nique words matching MPH: <b>hmph - pompholyx - woodnymph</b>",
-      "SIE -sn": "Syllable nique words matching SIE: <b>klappvisier - quasiequilibrium</b>",
-      "YMI": "Found 5 words matching YMI: <b>anonymizing - gayming - hyperthymia - rhyming - synonymicons</b>",
-      "YMI -sn": "2 Syllable nique (max8) words matching YMI: <b>polydymites — polydymite</b>",
+	   "ALY": "Found 2 words matching ALY: <b>analysis - halyard</b>",
+	   "AML": "Found 4 words matching AML: <b>amla - creamless - dreamlessly - foamlike</b>",
+	   "AVW": "Found 2 words matching AVW: <b>lavway - lavways</b>",
+	   "BCH": "Found 2 words matching BCH: <b>subchief - subchord</b>",
+	   "DF": "Found 3 words matching DF: <b>headfast - mudfish - mudflap</b>",
+	   "DME": "Found 2 words matching DME: <b>amendments - rodmen</b>",
+	   "ELS": "Found 4 words matching ELS: <b>else - counsels - gunsels - wheels</b>",
+	   "FSK": "Found 6 words matching FSK: <b>calfskin - calfskins - schafskopf - schafskopfen - wolfskin - wolfskins</b>",
+	   "ITO": "Found 6 words matching ITO: <b>cohabitors - epitomize - janitors - multitoned - spiritous - traitorism</b>",
+	   "ITO -h": "8 Hyphenated words matching ITO: <b>anti-mosquito - bass-baritone - bass-baritones - co-editor - co-editors - orbito-frontal - pellitory-of-the-wall - pellitories-of-the-wall </b>",
+	   "ITO -s": "7 Short words matching ITO: <b>niton — cito — bitou — bitos — bito — pitot — piton</b>",
+	   "IZO": "Found 4 words matching IZO: <b>horizontal - mestizo - vizors</b>",
+	   "IZO -h": "Found 3 hyphenated words matching IZO: <b>anti-schizophrenic — anti-schizophrenia — paranoid-schizoid</b>",
+	   "LLD": "Found 3 words matching LLD: <b>bulldogs - bulldozes - helldiver</b>",
+	   "LTA": "Found 5 words matching LTA: <b>consultant - consultas - saltationist - simultaneity - voltaism</b>",
+	   "LTA -s": "3 Short words matching LTA: <b>altar - delta - pelta - volta</b>",
+	   "LTA -sn": "3 Syllable nique words matching LTA: <b>weltanschauungs — weltanschauungen — weltanschauung</b>",
+	   "MPH": "Found 2 words matching MPH: <b>lymph - oomph</b>",
+	   "MPH -sn": "Syllable nique words matching MPH: <b>hmph - pompholyx - woodnymph</b>",
+	   "MWA": "Found 3 words matching MWA: <b>creamwares - doomwatch - mwah</b>",
+	   "SIE -sn": "Syllable nique words matching SIE: <b>klappvisier - quasiequilibrium</b>",
+	   "YMI": "Found 5 words matching YMI: <b>anonymizing - gayming - hyperthymia - rhyming - synonymicons</b>",
+	   "YMI -sn": "2 Syllable nique words matching YMI: <b>polydymites — polydymite</b>",
    };
    
    function checkWord() {

@@ -1,4 +1,2 @@
 # JKLM Bomb Party
-For JKLM Bomb Party users
-
-Prompts
+Bomb Party prompts for JKLM users
