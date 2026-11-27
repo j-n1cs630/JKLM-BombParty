@@ -6,7 +6,7 @@
 <body>
    <button onclick="alert('N1CS630 on JKLM')">Creator</button>
    <h1 style="text-align: center;">Sub1000 JKLM Prompts</h1><br>
-   <p style="text-align: center;">Type in the syllables either capslock or not.<br><b>"__ -s = short words  __ -sn = syllable nique words  __ -h = hyphenated words</b></p>
+   <p style="text-align: center;">Type in the syllables or either capslock or not.<br><b>"__ -s" = short words  "__ -sn" = syllable nique words  "__ -h" = hyphenated words</b></p>
    
    <hr><br>
    <div style="text-align: center;">
@@ -25,6 +25,9 @@
       "DME": "Found 2 words matching DME: <b>amendments - rodmen</b>",
       "ELS": "Found 4 words matching ELS: <b>else - counsels - gunsels - wheels</b>",
       "FSK": "Found 6 words matching FSK: <b>calfskin - calfskins - schafskopf - schafskopfen - wolfskin - wolfskins</b>",
+      "ITO": "Found 6 words matching ITO: <b>cohabitors - epitomize - janitors - multitoned - spiritous - traitorism</b>",
+      "ITO -h": "8 Hyphenated words matching ITO: <b>anti-mosquito - bass-baritone - bass-baritones - co-editor - co-editors - orbito-frontal - pellitory-of-the-wall - pellitories-of-the-wall </b>",
+      "ITO -s": "7 Short words matching ITO: <b>niton — cito — bitou — bitos — bito — pitot — piton</b>",
       "IZO": "Found 4 words matching IZO: <b>horizontal - mestizo - vizors</b>",
       "IZO -h": "Found 3 hyphenated words matching IZO: <b>anti-schizophrenic — anti-schizophrenia — paranoid-schizoid</b>",
       "LLD": "Found 3 words matching LLD: <b>bulldogs - bulldozes - helldiver</b>",
@@ -48,7 +51,7 @@
        if (found) {
            document.getElementById("result").innerHTML = words[found];
        } else {
-           document.getElementById("result").innerHTML = "No words found, sorry...";
+           document.getElementById("result").innerHTML = "Unavailable, sorry...";
        }
    }
    
