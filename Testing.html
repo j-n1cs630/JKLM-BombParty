@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JKLM Prompt searcher</title>
+</head>
+<body>
+   <button onclick="alert('N1CS630 on JKLM')">Creator</button>
+   <h1 style="text-align: center;">Sub1000 JKLM Prompts</h1><br>
+   <p style="text-align: center;">Type in the syllables either capslock or not. You can also find sn prompts by adding -sn next to it (with space).</p>
+   
+   <hr><br>
+   <div style="text-align: center;">
+   <input type="text" id="search" placeholder="Type in the JKLM prompt">
+   <button onclick="checkWord()">Search</button>   
+   <p id="result"></p>
+
+   </div>
+   x
+   <script>
+   let words = {
+      "ALY": "Found 2 words matching ALY: <b>analysis - halyard</b>",
+      "AVW": "Found 2 words matching AVW: <b>lavway - lavways</b>",
+      "BCH": "Found 2 words matching BCH: <b>subchief - subchord</b>",
+      "DF": "Found 3 words matching DF: <b>headfast - mudfish - mudflap</b>",
+      "DME": "Found 2 words matching DME: <b>amendments - rodmen</b>",
+      "ELS": "Found 4 words matching ELS: <b>else - counsels - gunsels - wheels</b>",
+      "LLD": "Found 3 words matching LLD: <b>bulldogs - bulldozes - helldiver</b>",
+      "MPH": "Found 2 words matching MPH: <b>lymph - oomph</b>",
+      "MPH -sn": "Syllable nique words matching MPH: <b>hmph - pompholyx - woodnymph</b>",
+      "SIE -sn": "Syllable nique words matching SIE: <b>klappvisier - quasiequilibrium</b>",
+   };
+   
+   function checkWord() {
+       let word = document.getElementById("search").value.trim().toLowerCase();
+   
+       let found = Object.keys(words).find(
+           key => key.toLowerCase() === word
+       );
+   
+       if (found) {
+           document.getElementById("result").innerHTML = words[found];
+       } else {
+           document.getElementById("result").innerHTML = "Unavailable, sorry..";
+       }
+   }
+   
+   document.getElementById("search").addEventListener("keydown", function(event) {
+       if (event.key === "Enter") {
+           checkWord();
+       }
+   });
+   </script>
+
+</body>
+</html>
